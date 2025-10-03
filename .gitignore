@@ -1,0 +1,48 @@
+# Archivos y carpetas generados por el sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dependencias y artefactos de construcción comunes
+/node_modules/
+/vendor/
+/build/
+/dist/
+/out/
+/target/
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos de configuración y credenciales
+# ¡IMPORTANTE! Ignora archivos que contengan contraseñas, claves API, etc.
+# Ejemplo:
+.env
+.env.local
+config.local.json
+
+# IDEs (Entornos de Desarrollo Integrado) y Editores
+# Carpetas de configuración comunes para IDEs como VS Code, IntelliJ, etc.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# Archivos de paquetes y compresión
+*.zip
+*.rar
+*.tar.gz
+
+# Archivos de prueba o caché
+/coverage/
+.nyc_output/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+__pycache__/
+.pytest_cache/
