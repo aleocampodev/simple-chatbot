@@ -1,6 +1,6 @@
 import { FC , useState} from 'react';
 import { ChatMessage } from '@/types/messageList';
-import styles from './messageList.module.css';
+import styles from './messageList.module.css'; //*hi
 
 const chats: ChatMessage[]= [
     {
